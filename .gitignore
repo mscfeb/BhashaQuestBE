@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# Uploads and generated audio
+uploads/
+media/
+audio_uploads/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local certificates and keys
+*.pem
+*.key
